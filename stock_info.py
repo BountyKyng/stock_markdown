@@ -1,12 +1,14 @@
-#Stock info reader
-#Load required packages
-import csv
+# Script:  : Stock info reader
+# Version  : 1.0
+# Author   : Ceylan Arduin
+
+# Import required packages
 import yfinance as yf
 import pandas as pd
 import numpy as np
 
-#Set security
-security = yf.Ticker("INTC")
+# Set security ticker for analysis
+security = yf.Ticker(input("Select ticker symbol:"))
 
 #Stock price history
 stock_history = security.history(period = "1y", interval = "1d")
