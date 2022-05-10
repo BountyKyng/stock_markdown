@@ -1,3 +1,9 @@
 # Stock_Markdown
 
-Dit project is bedoeld om aandelen informatie eenvoudig te downloaden en te analyseren in een .ipynb markdown document. Uiteindelijke doel is om de aandelenkoers te linken aan balans eigenschappen van Intel over 2021.
+This project is a method of downloading company (financial) information and storing it in an structured data model. Preferably in an SQL like database. After that you can connect any type of visualization tool.
+
+The model contains (at least) the following tables:
+1. COMPANIES
+2. STOCK_HISTORY
+
+The data model can be used with any visualization tool (Tablau, Power BI, Qlik, etc.).
