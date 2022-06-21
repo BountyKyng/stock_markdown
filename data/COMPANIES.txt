@@ -1,0 +1,3 @@
+COMPANY|Company Name|Company Ticker|Company Sector|Company Industry|Company Country
+INTC|Intel Corporation|INTC|Technology|Semiconductors|United States
+AMD|Advanced Micro Devices, Inc.|AMD|Technology|Semiconductors|United States

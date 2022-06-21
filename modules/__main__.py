@@ -15,7 +15,7 @@ vLoad_Companies = True
 vLoad_Stocks = True
 
 # Set path
-path = "C:\Users\ceyla\Downloads"
+path = "C:/Users/ceyla/Downloads/"
 
 # Set tickers to download and collect data from
 Tickers = ['INTC', 'AMD']
