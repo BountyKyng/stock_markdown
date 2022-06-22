@@ -11,7 +11,7 @@ import COMPANIES
 import STOCK_HISTORY
 
 # Toggles for table parts
-vLoad_Companies = True
+vLoad_Companies = False
 vLoad_Stocks = True
 
 # Set path
@@ -25,3 +25,7 @@ end_date = "2021-12-31"
 # Statement for vLoad_Companies
 if vLoad_Companies:
     COMPANIES.companies(Tickers)
+
+# Statement for vLoad_Stocks
+if vLoad_Stocks:
+    STOCK_HISTORY.stock_history(Tickers, start_date, end_date)
