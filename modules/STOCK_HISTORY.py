@@ -23,7 +23,7 @@ def stock_history(x, y, z):
     for i in x:
         
         # Download stock data with given time frame
-        data = yf.download(i, start = y, end = z)
+        data = yf.download(i, start = y, end = z, rounding = True)
 
         # Reset the index
         data.reset_index(inplace = True)
@@ -39,7 +39,7 @@ def stock_history(x, y, z):
                     'Close':'Stock Close',
                     'Adj Close':'Stock Adj Close',
                     'Volume':'Stock Volume'})
-
+        
         # Concat STOCK_HISTORY table with data for each ticker
         STOCK_HISTORY = pd.concat(objs=[STOCK_HISTORY, data])
 
